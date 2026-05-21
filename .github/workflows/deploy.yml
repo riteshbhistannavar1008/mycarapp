@@ -5,10 +5,10 @@ on:
     branches: [main]
 
 env:
-  AWS_REGION: ap-south-1              # ← change to your region
-  ECR_REPOSITORY: my-car-site         # ← your ECR repo name
-  ECS_CLUSTER: my-car-site-cluster    # ← your ECS cluster name
-  ECS_SERVICE: my-car-site-service    # ← your ECS service name
+  AWS_REGION: us-east-1                # ← change to your region
+  ECR_REPOSITORY: frontend-app         # ← your ECR repo name
+  ECS_CLUSTER: frontend-cluster        # ← your ECS cluster name
+  ECS_SERVICE: frontend-service        # ← your ECS service name
 
 jobs:
   deploy:
