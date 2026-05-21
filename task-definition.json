@@ -8,7 +8,7 @@
   "containerDefinitions": [
     {
       "name": "frontend-container",
-      "image": "YOUR_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/frontend-app:latest",
+      "image": "026268603692.dkr.ecr.us-east-1.amazonaws.com/frontend-app:latest",
       "portMappings": [
         {
           "containerPort": 80,
